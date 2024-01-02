@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .homepage {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  
+  .shape {
+    display: flex;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 20px 10px 20px 0px;
+    padding: 30px 10px 30px 5px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0px 30px 30px 0px;
+    transition: all 0.3s ease;
+    user-select: none;
+  }
+  
+  .clicked {
+    margin: 20px 10px 20px 0px;
+    padding: 30px 30px 30px 40px;
+    cursor: default;
+    transition: all 0.3s ease;
+  }
+  
+  .home{
+      background-color: rgb(255, 175, 175);
+  }
+  .about{
+      background-color: rgb(207, 255, 175);
+  }
+  .service{
+      background-color: rgb(175, 191, 255);
+  }
+  .contact{
+      background-color: rgb(252, 175, 255);
+  }
